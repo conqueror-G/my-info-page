@@ -1,0 +1,1 @@
+<img src="images/plan-image.png" alt="사진">
