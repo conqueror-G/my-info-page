@@ -18,6 +18,6 @@
 /* 프로필 이미지 */
 .profile-image {
   width: 70%;
-  height: 25%;
+  height: 40%;
   background: url(images/profile-image.png) no-repeat;
 }
