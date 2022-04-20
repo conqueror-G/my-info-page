@@ -1,3 +1,10 @@
+a {
+  text-decoration: none;
+}
+div, figure, nav, ul, li, a, section, article {
+  box-sizing: border-box;
+}
+
 /* 전체 영역 설정 */
 .container {
   display: flex;
@@ -20,4 +27,57 @@
   width: 70%;
   height: 40%;
   background: url(images/profile-image.png) no-repeat;
+}
+
+/* 프로필 메뉴 */
+.menu {
+  width: 70%;
+  height: 10%;
+}
+
+.menu-container {
+  display: flex;
+  flex: 1 auto;
+  height: 100%;
+  background-color: #5dbcc2;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  transition: width .7s, background-color .7s;
+}
+
+.menu-item-text {
+  display: block;
+  font-size: 1.2rem;
+  font-family: 'Sunflower', sans-serif;
+  transform: rotate(0.03deg);
+  text-align: center;
+}
+
+.menu-item-text:hover {
+  border-bottom: 3px solid gray;
+}
+
+.menu-item-text:link {
+  color: #000;
+}
+
+.menu-item-text:visited {
+  color: #000;
+}
+
+.menu-item-about:hover {
+  width: 70%;
+  background-color: #5dbcf0;
+  text-decoration: solid;
+}
+
+.menu-item-contact:hover {
+  width: 70%;
+  background-color: #5dbcf0;
 }
