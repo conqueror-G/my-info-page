@@ -1,7 +1,7 @@
 a {
   text-decoration: none;
 }
-div, figure, nav, ul, li, a, section, article {
+div, figure, nav, ul, li, a, section, article, span {
   box-sizing: border-box;
 }
 
@@ -20,6 +20,7 @@ div, figure, nav, ul, li, a, section, article {
   width: 40%;
   height: 90%;
   background-color: #b7e1e4;
+  box-shadow: 10px 10px 10px #808080;
 }
 
 /* 프로필 이미지 */
@@ -35,49 +36,41 @@ div, figure, nav, ul, li, a, section, article {
   height: 10%;
 }
 
-.menu-container {
-  display: flex;
-  flex: 1 auto;
+.menu-list {
   height: 100%;
-  background-color: #5dbcc2;
+  display: flex;
 }
 
-.menu-item {
+.menu-list-item {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-list-item-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 100%;
-  transition: width .7s, background-color .7s;
 }
 
-.menu-item-text {
-  display: block;
+.menu-list-item-link:hover .menu-list-item-txt {
+  border-bottom: 3px solid #808080;
+  position: relative;
+  top: 1px;
+}
+
+.menu-list-item-link:link {
+  color: #808;
+}
+
+.menu-list-item-link:visited {
+  color: #808;
+}
+
+.menu-list-item-txt {
   font-size: 1.2rem;
   font-family: 'Sunflower', sans-serif;
   transform: rotate(0.03deg);
-  text-align: center;
 }
 
-.menu-item-text:hover {
-  border-bottom: 3px solid gray;
-}
-
-.menu-item-text:link {
-  color: #000;
-}
-
-.menu-item-text:visited {
-  color: #000;
-}
-
-.menu-item-about:hover {
-  width: 70%;
-  background-color: #5dbcf0;
-  text-decoration: solid;
-}
-
-.menu-item-contact:hover {
-  width: 70%;
-  background-color: #5dbcf0;
-}
