@@ -1,6 +1,16 @@
 /* 전체 영역 설정 */
 .container {
-  min-width: 100vw;
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
   background: url(images/background-image.webp) no-repeat;
+}
+
+/* 컨텐츠 영역 설정 */
+.content {
+  width: 40%;
+  height: 90%;
+  background-color: #b7e1e4;
 }
