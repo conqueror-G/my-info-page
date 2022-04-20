@@ -14,3 +14,10 @@
   height: 90%;
   background-color: #b7e1e4;
 }
+
+/* 프로필 이미지 */
+.profile-image {
+  width: 70%;
+  height: 25%;
+  background: url(images/profile-image.png) no-repeat;
+}
