@@ -1,0 +1,6 @@
+/* 전체 영역 설정 */
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url(images/background-image.webp) no-repeat;
+}
