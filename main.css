@@ -30,6 +30,22 @@ div, figure, nav, ul, li, a, section, article, span {
   background: url(images/profile-image.png) no-repeat;
 }
 
+/* 프로필 이름 */
+.profile-main {
+  width: 70%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Markazi Text', serif;
+  font-size: 1.5rem;
+}
+
+.profile-main-name {
+  margin: 10px 0 10px 0;
+}
+
 /* 프로필 메뉴 */
 .menu {
   width: 70%;

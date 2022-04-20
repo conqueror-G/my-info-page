@@ -13,7 +13,7 @@
   <!-- 구글 웹 폰트 적용 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&family=Sunflower:wght@500&display=swap" rel="stylesheet"> 
   <!-- css 연결 -->
   <link rel="stylesheet" href="main.css">
 </head>
@@ -23,15 +23,22 @@
     <!-- 컨텐츠 영역 설정 -->
     <div class="content">
       <!-- 프로필 이미지 -->
-      <figure class="profile-image">
-
-      </figure>
+      <figure class="profile-image"></figure>
+      <!-- 프로필 이름 -->
+      <div class="profile-main">
+        <div class="profile-main-name">
+          Hello!! My name is Minseok Kim
+        </div>
+        <div class="profile-main-wishlist">
+          I want to become a junior front-end engineer.
+        </div>
+      </div>
       <!-- 프로필 메뉴 -->
       <nav class="menu">
         <ul class="menu-list">
           <li class="menu-list-item">
             <!-- 유저 이벤트시 이동 -->
-            <a href="#" class="menu-list-item-link">
+            <a href="#description" class="menu-list-item-link">
               <span class="menu-list-item-txt">
               About Me
               </span>
@@ -39,7 +46,7 @@
           </li>
           <li class="menu-list-item">
             <!-- 유저 이벤트시 이동 -->
-            <a href="" class="menu-list-item-link">
+            <a href="#description" class="menu-list-item-link">
               <span class="menu-list-item-txt">
                 Contact
                 </span>
@@ -48,23 +55,17 @@
         </ul>
       </nav>
       <!-- 공통 프로필 설명 박스  -->
-      <section class="profile-desc">
+      <section class="profile-description">
         <!-- 프로필 설명 About me -->
-        <article class="profile-desc-about">
+        <article class="profile-description-about">
 
         </article>
         <!-- 프로필 설명 Contact -->
-        <article class="profile-desc-contact">
+        <article class="profile-description-contact">
           
         </article>
       </section>
     </div>
-  </div>
-
-  <div class="container1">
-    <a href="" class="item1">
-      Home
-    </a>
   </div>
   <!-- JS 연결 -->
   <script src="main.js"></script>
