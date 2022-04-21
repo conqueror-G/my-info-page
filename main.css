@@ -7,9 +7,19 @@ div, figure, nav, ul, li, a, section, article, span, header {
   box-sizing: border-box;
 }
 
-/* 배경 이미지 */
+/* 홈 화면 배경 이미지 */
 .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 1000px;
   background: url(images/background-image.webp);
+}
+
+.content {
+  width: 40%;
+  height: 90%;
+  background-color: #b7e1e4;
+  box-shadow: 10px 10px 10px #808080;
 }
