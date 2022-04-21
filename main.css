@@ -4,3 +4,9 @@ a {
 div, figure, nav, ul, li, a, section, article, span, header {
   box-sizing: border-box;
 }
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: red;
+}
