@@ -31,9 +31,21 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 /* 메뉴바 */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 10%;
+}
+
 .menu-link {
-  display: block;
   padding: 30px;
+}
+
+.menu-link__txt {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-link:link {
@@ -53,6 +65,12 @@ div, figure, nav, ul, li, a, section, article, span, header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 75%;
+}
+
+/* 환영 인사 문구 */
+.greeting {
   width: 70%;
-  height: 70%;
+  height: 10%;
 }
