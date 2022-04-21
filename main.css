@@ -18,9 +18,11 @@ div, figure, nav, ul, li, a, section, article, span, header {
   background: url(https://ssl.pstatic.net/static/blog/skin/05_skin_top.jpg) 50% no-repeat;
 }
 
+/* 컨텐츠 박스 */
 .content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 40%;
   height: 90%;
@@ -28,12 +30,4 @@ div, figure, nav, ul, li, a, section, article, span, header {
   box-shadow: 10px 10px 10px #808080;
 }
 
-.greeting {
-  width: 40%;
-  height: 15%;
-}
-
-.greeting-message {
-  font-family: 'Markazi Text', serif;
-  font-size: 2rem;
-}
+/* 메뉴바 */
