@@ -1,7 +1,7 @@
 a {
   text-decoration: none;
 }
-div, figure, nav, ul, li, a, section, article, span {
+div, figure, nav, ul, li, a, section, article, span, header {
   box-sizing: border-box;
 }
 
@@ -45,11 +45,6 @@ div, figure, nav, ul, li, a, section, article, span {
 .menu {
   width: 70%;
   height: 10%;
-}
-
-.menu-list {
-  height: 100%;
-  display: flex;
 }
 
 .menu-list-item {
