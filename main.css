@@ -31,3 +31,19 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 /* 메뉴바 */
+.menu-link {
+  display: block;
+  padding: 30px;
+}
+
+.menu-link:link {
+  color: #808;
+}
+
+.menu-link:visited {
+  color: #808;
+}
+
+.menu-link:hover .menu-link__txt {
+  border-bottom: 3px solid #808;
+}
