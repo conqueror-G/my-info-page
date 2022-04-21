@@ -1,3 +1,5 @@
+/* 특정 태그 전체 적용 */
+
 a {
   text-decoration: none;
 }
@@ -5,3 +7,9 @@ div, figure, nav, ul, li, a, section, article, span, header {
   box-sizing: border-box;
 }
 
+/* 배경 이미지 */
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: url(images/background-image.webp);
+}
