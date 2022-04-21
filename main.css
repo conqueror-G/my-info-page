@@ -68,7 +68,7 @@ div, figure, nav, ul, li, a, section, article, span {
 .menu-list-item-txt {
   font-size: 1.2rem;
   font-family: 'Sunflower', sans-serif;
-  transform: rotate(0.03deg);
+  transform: rotateX(0.03deg);
 }
 
 /* 프로필 이미지 */
@@ -79,7 +79,7 @@ div, figure, nav, ul, li, a, section, article, span {
 }
 
 /* 프로필 이름 */
-.profile-main {
+.profile-introduce {
   width: 70%;
   height: 10%;
   display: flex;
@@ -90,8 +90,13 @@ div, figure, nav, ul, li, a, section, article, span {
   font-size: 1.5rem;
 }
 
-.profile-main-name {
+.profile-introduce-name {
   margin: 10px 0 10px 0;
+  transform: rotateX(0.03deg);
+}
+
+.profile-introduce-wish {
+  transform: rotateX(0.03deg);
 }
 
 
