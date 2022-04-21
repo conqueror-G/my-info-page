@@ -47,3 +47,12 @@ div, figure, nav, ul, li, a, section, article, span, header {
 .menu-link:hover .menu-link__txt {
   border-bottom: 3px solid #808;
 }
+
+/* 마스코트 이미지 */
+.mascot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+}
