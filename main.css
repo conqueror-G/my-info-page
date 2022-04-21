@@ -27,6 +27,13 @@ div, figure, nav, ul, li, a, section, article, span {
   box-shadow: 10px 10px 10px #808080;
 }
 
+/* 환영 인사 */
+.profile-greeting {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-family: 'Markazi Text', serif;
+}
+
 /* 프로필 이미지 */
 .profile-image {
   width: 70%;
@@ -77,3 +84,4 @@ div, figure, nav, ul, li, a, section, article, span {
   font-family: 'Sunflower', sans-serif;
   transform: rotateX(0.03deg);
 }
+
