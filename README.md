@@ -1,1 +1,1 @@
-<img src="images/plan-image.png" alt="사진">
+<img src="images/main-page-plan" alt="사진">
