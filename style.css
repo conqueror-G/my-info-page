@@ -1,0 +1,30 @@
+/* 특정 태그 적용 */
+a {
+  text-decoration: none;
+}
+div, figure, nav, ul, li, a, section, article, span, header {
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 배경 이미지 */
+.background {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background: url(https://ssl.pstatic.net/static/blog/skin/05_skin_top.jpg) 50% no-repeat;
+}
+
+/* 컨텐츠 박스 */
+.content {
+  flex-direction: column;
+  width: 40%;
+  height: 90%;
+  background-color: #b7e1e4;
+  box-shadow: 10px 10px 10px #808080;
+}
