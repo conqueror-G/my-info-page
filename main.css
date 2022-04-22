@@ -37,11 +37,9 @@ div, figure, nav, ul, li, a, section, article, span, header {
   color: black;
 }
 
-/* flex center, center 정렬 */
-.flex-center {
+/* flex box 선언 */
+.flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* 배경 이미지 */
@@ -59,9 +57,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* 컨텐츠 박스 */
 .main-content {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-direction: column;
   width: 600px;
   height: 90%;
@@ -125,7 +120,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   padding: 15px;
 }
 
-.introduce-title {
+.introduce h1 {
   height: 10%;
   margin-bottom: 15px;
 }
@@ -181,9 +176,8 @@ div, figure, nav, ul, li, a, section, article, span, header {
   padding: 15px;
 }
 
-.interest-title {
+.interest h1 {
   height: 10%;
-  transform: rotateX(0.03deg);
 }
 
 .interest-list { /* .flex-center */
