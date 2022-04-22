@@ -42,18 +42,21 @@ div, figure, nav, ul, li, a, section, article, span, header {
   display: flex;
 }
 
-/* 배경 이미지 */
+/* ========================== */
+/* ========================== */
+
+/* viewport */
 .container {
   background: red;
 }
 
-/* 메인 페이지 */
+/* home screen */
 .container-item {
   width: 100vw;
   height: 100vh;
 }
 
-/* 컨텐츠 박스 */
+/* content box */
 .content-box-home {
   width: 600px;
   height: 90%;
@@ -61,7 +64,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   box-shadow: 10px 10px 10px #808080;
 }
 
-/* 메뉴바 */
+/* menu */
 .menu {
   width: 90%;
   height: 10%;
@@ -84,19 +87,19 @@ div, figure, nav, ul, li, a, section, article, span, header {
   border-bottom: 3px solid #808;
 }
 
-/* 마스코트 이미지 */
+/* mascot image */
 .mascot {
   width: 80%;
   height: 60%;
 }
 
-/* 환영 인사 문구 */
+/* greeings */
 .greeting-message {
   width: 70%;
   height: 10%;
 }
 
-/* 컨텐츠 박스 */
+/* about content box */
 .content-box-about {
   width: 600px;
   height: 90%;
@@ -104,7 +107,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   box-shadow: 10px 10px 10px #808080;
 }
 
-/* 자기소개 페이지 */
+/* introduction text */
 .introduce-area {
   width: 90%;
   height: 40%;
@@ -137,7 +140,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   margin-top: 10px;
 }
 
-/* sns 링크 */
+/* sns link */
 .sns {
   height: 20%;
 }
@@ -146,7 +149,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   margin-right: 40px;
 }
 
-/* 관심사 */
+/* interest */
 .interest {
   width: 90%;
   height: 50%;
@@ -183,12 +186,13 @@ div, figure, nav, ul, li, a, section, article, span, header {
   background-color: #000;
 }
 
-/* 태블릿 */
+/* desktop priority */
+/* tablet */
 @media screen and (max-width: 1200px) {
   
 }
 
-/* 모바일 */
+/* mobile */
 @media screen and (max-width: 768px) {
   
 }
