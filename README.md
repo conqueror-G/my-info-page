@@ -1,1 +1,1 @@
-<img src="images/main-page-plan" alt="사진">
+#자기소개 페이지
