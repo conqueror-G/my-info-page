@@ -25,6 +25,13 @@ div, figure, nav, ul, li, a, section, article, span, header {
   transform: rotateX(0.03deg);
 }
 
+/* 타이틀 공통 글 스타일 */
+.title {
+  font-size: 1.6rem;
+  font-family: 'Gamja Flower', cursive;
+  transform: rotateX(0.03deg);
+}
+
 /* font-awesome 배경 색상 수정 */
 .fa-github, .fa-blog {
   color: black;
