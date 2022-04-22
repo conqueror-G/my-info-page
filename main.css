@@ -48,6 +48,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 .main-content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-direction: column;
   width: 600px;
   height: 90%;
