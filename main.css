@@ -45,7 +45,9 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 /* 컨텐츠 박스 */
-.content {
+.main-content {
+  display: flex;
+  justify-content: space-around;
   flex-direction: column;
   width: 600px;
   height: 90%;
@@ -95,6 +97,16 @@ div, figure, nav, ul, li, a, section, article, span, header {
   transform: rotateX(0.03deg);
 }
 
+.sub-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 90%;
+  background-color: #b7e1e4;
+  box-shadow: 10px 10px 10px #808080;
+}
 
 /* 자기소개 페이지 */
 .introduce {
