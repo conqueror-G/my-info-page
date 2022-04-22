@@ -1,45 +1,52 @@
-/* 1rem = 10px 선언 */
+/* html bagic font-size: 16px */
+/* 100% = 16px , 62.5% = 10px */
+/* 1rem = 10px */
 html {
   font-size: 62.5%;
 }
 
-/* 하단 스크롤 제거 */
+/* unnecessary scroll delete */
 body {
   overflow-x: hidden;
 }
 
-/* a 태그 기본 underline 제거 */
+/* bagic property 'underline' delete */
 a {
   text-decoration: none;
 }
 
-/* box-sizing: border-box 사용 */
 div, figure, nav, ul, li, a, section, article, span, header {
   box-sizing: border-box;
 }
 
-/* 자기소개 공통 글 스타일 */
+/* common writing style */
 .common-font {
   font-size: 1.6rem;
   font-family: 'Sunflower', sans-serif;
   transform: rotateX(0.03deg);
 }
 
-/* 타이틀 공통 글 스타일 */
+/* common title writing style */
 .title {
   font-size: 1.6rem;
   font-family: 'Gamja Flower', cursive;
   transform: rotateX(0.03deg);
 }
 
-/* font-awesome 배경 색상 수정 */
+/* font-awesome background-color */
 .fa-github, .fa-blog {
   color: black;
 }
 
-/* flex box 선언 */
+/* easy purpose flex-box */
 .flex {
   display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ========================== */
@@ -47,7 +54,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* viewport */
 .container {
-  background: red;
+  background-color: #fae67bd9;
 }
 
 /* home screen */
