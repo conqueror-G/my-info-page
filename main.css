@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 /* 특정 태그 적용 */
 a {
   text-decoration: none;
@@ -25,13 +29,14 @@ div, figure, nav, ul, li, a, section, article, span, header {
   align-items: center;
 }
 
+/* 배경 이미지 */
 .container {
   width: 100vw;
   height: 200vh;
   background: url(https://ssl.pstatic.net/static/blog/skin/05_skin_top.jpg) 50% no-repeat;
 }
 
-/* 배경 이미지 */
+/* 메인 페이지 */
 .page {
   width: 100vw;
   height: 100vh;
@@ -89,7 +94,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 
-/* 자기소개 본문 */
+/* 자기소개 페이지 */
 .introduce {
   display: flex;
   flex-direction: column;
