@@ -2,14 +2,21 @@
 a {
   text-decoration: none;
 }
+
 div, figure, nav, ul, li, a, section, article, span, header {
   box-sizing: border-box;
 }
 
+/* flex 선언 및 center 정렬 */
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* 본문 공통 글 스타일 */
+.common-font {
+  font-size: 1.2rem;
 }
 
 /* 배경 이미지 */
@@ -27,4 +34,41 @@ div, figure, nav, ul, li, a, section, article, span, header {
   height: 90%;
   background-color: #b7e1e4;
   box-shadow: 10px 10px 10px #808080;
+}
+
+/* 자기소개 본문 */
+.introduce {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 40%;
+  padding: 15px;
+  border: 1px solid;
+}
+
+.introduce-title {
+  height: 10%;
+}
+
+.introduce-image {
+  height: 90%;
+}
+
+.introduce-image__profile-image {
+  width: 30%;
+  height: 80%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.introduce-image__profile-explanation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 80%;
+}
+
+.introduce-image__profile-explanation p {
+  margin-top: 10px;
 }
