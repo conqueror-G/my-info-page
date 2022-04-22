@@ -45,7 +45,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 /* 컨텐츠 박스 */
 .content {
   flex-direction: column;
-  width: 40%;
+  width: 600px;
   height: 90%;
   background-color: #b7e1e4;
   box-shadow: 10px 10px 10px #808080;
@@ -76,7 +76,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* 마스코트 이미지 */
 .mascot {
-  width: 100%;
+  width: 80%;
   height: 70%;
 }
 
@@ -200,4 +200,58 @@ div, figure, nav, ul, li, a, section, article, span, header {
 .interest-list-item span {
   font-size: 3rem;
   color: #eee;
+}
+/* 태블릿 */
+@media screen and (max-width: 1200px) {
+  .content {
+    width: 450px;
+  }
+  
+  .mascot-image {
+    width: 80%;
+    height: 90%;
+  }
+
+  .introduce-image__profile-explanation p {
+    font-size: 1rem;
+  }
+
+  .interest-list-item span {
+    font-size: 2.3rem;
+    color: #eee;
+  }
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+  .content {
+    width: 400px;
+  }
+  
+  .mascot-image {
+    width: 80%;
+    height: 90%;
+  }
+
+  .greeting-message {
+    font-size: 1.5rem;
+  }
+
+  .introduce-image__profile-image {
+    width: 50%;
+    height: 80%;
+  }
+
+  .introduce-image__profile-explanation {
+    height: 80%;
+  }
+
+  .introduce-image__profile-explanation p {
+    font-size: .9rem;
+  }
+
+  .interest-list-item span {
+    font-size: 1.5rem;
+    color: #eee;
+  }
 }
