@@ -252,11 +252,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
     font-size: 1.5rem;
   }
 
-  .introduce-image__profile-image {
-    width: 35%;
-    height: 80%;
-  }
-
   .introduce-image__profile-explanation {
     height: 80%;
   }
