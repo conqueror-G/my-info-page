@@ -1,6 +1,7 @@
 /* 하단 스크롤 제거 */
 body {
   overflow-x: hidden;
+  margin-top: -10px;
 }
 
 /* 특정 태그 적용 */
@@ -78,7 +79,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 /* 마스코트 이미지 */
 .mascot {
   width: 80%;
-  height: 70%;
+  height: 60%;
 }
 
 /* 환영 인사 문구 */
