@@ -19,6 +19,11 @@ div, figure, nav, ul, li, a, section, article, span, header {
   font-size: 1.2rem;
 }
 
+/* font-awesome */
+.fa-github, .fa-blog {
+  color: black;
+}
+
 /* 배경 이미지 */
 .background {
   width: 100vw;
@@ -51,13 +56,22 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 .introduce-image {
-  height: 90%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.introduce-image-container {
+  display: flex;
+  align-items: flex-start;
+  height: 80%;
 }
 
 .introduce-image__profile-image {
-  width: 30%;
-  height: 80%;
+  width: 25%;
+  height: 90%;
   margin-right: 20px;
+  border: 10px solid #5dbcc2;
   border-radius: 50%;
 }
 
@@ -66,9 +80,19 @@ div, figure, nav, ul, li, a, section, article, span, header {
   flex-direction: column;
   justify-content: center;
   width: 60%;
-  height: 80%;
+  height: 100%;
 }
 
 .introduce-image__profile-explanation p {
   margin-top: 10px;
+}
+
+.sns-link {
+  display: flex;
+  justify-content: center;
+  height: 20%;
+}
+
+.sns-link__github {
+  margin-right: 40px;
 }

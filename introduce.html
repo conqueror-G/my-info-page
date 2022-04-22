@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&family=Sunflower:wght@500&display=swap" rel="stylesheet"> 
   <!-- css 연결 -->
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
   <!-- 배경 이미지 -->
@@ -27,23 +28,29 @@
         <h1 class="introduce-title">
           📜 ABOUT ME
         </h1>
-        <figure class="introduce-image flex-center">
-          <img src="images/profile-image-me.jpeg" alt="introduce image" class="introduce-image__profile-image">
-          <figcaption class="introduce-image__profile-explanation">
-            <!-- 본문 공통 폰트 적용 선언은 css파일 맨 위에 -->
-            <p class="common-font">My name is 🐧Minseok Kim</p>
-            <p class="common-font">I'm on a diet</p>
-            <p class="common-font">Succeeded in weight loss</p>
-            <p class="common-font">Also, i'm studying WEB</p>
-            <p class="common-font">I want to conquer this</p>
-          </figcaption>
+        <figure class="introduce-image">
+          <div class="introduce-image-container">
+            <img src="images/profile-image-me.jpeg" alt="introduce image" class="introduce-image__profile-image">
+            <figcaption class="introduce-image__profile-explanation">
+              <!-- 본문 공통 폰트 적용 선언은 css파일 맨 위에 -->
+              <p class="common-font">My name is 🐧Minseok Kim</p>
+              <p class="common-font">I'm on a diet</p>
+              <p class="common-font">Succeeded in weight loss</p>
+              <p class="common-font">Also, i'm studying WEB</p>
+              <p class="common-font">I want to conquer this</p>
+            </figcaption>
+          </div>
+          <!-- sns 링크 -->
+          <div class="sns-link">
+            <a href="https://github.com/conqueror-G/conqueror-G" class="sns-link__github">
+              <i class="fa-brands fa-github fa-3x"></i>
+            </a>
+            <a href="https://conqueror-g.tistory.com/" class="sns-link__blog">
+              <i class="fa-solid fa-blog fa-3x"></i>
+            </a>
+          </div>
         </figure>
       </section>
-      <!-- sns 링크 -->
-      <div class="sns-link">
-        <a href="#" class="sns-link__github"></a>
-        <a href="#" class="sns-link__blog"></a>
-      </div>
       <!-- 관심사 -->
       <section class="interest">
         <h1 class="interest-title">
@@ -58,5 +65,7 @@
       </section>
     </div>
   </div>
+
+  <script src="https://kit.fontawesome.com/901e57d178.js" crossorigin="anonymous"></script>
 </body>
 </html>
