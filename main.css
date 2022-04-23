@@ -283,6 +283,10 @@ div, figure, nav, ul, li, a, section, article, span, header {
   .introduce-area h1 {
     font-size: 1.8rem;
   }
+
+  .profile-image-introduce span {
+    font-size: 1.4rem;
+  }
   
   .interest h1 {
     font-size: 1.8rem;
