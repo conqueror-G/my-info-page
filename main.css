@@ -67,7 +67,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 .content-box-home {
   flex-direction: column;
   align-items: center;
-  width: 60%;
+  width: 40%;
   height: 90%;
   padding: 3rem;
   background-color: #b7e1e4;
@@ -154,7 +154,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 /* about content box */
 .content-box-about {
   flex-direction: column;
-  width: 60%;
+  width: 40%;
   height: 90%;
   background-color: #b7e1e4;
   box-shadow: 1rem 1rem 1rem #808080;
@@ -280,6 +280,14 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* mobile portrait mode */
 @media screen and (max-width: 450px) {
+  .introduce-area h1 {
+    font-size: 1.8rem;
+  }
+  
+  .interest h1 {
+    font-size: 1.8rem;
+  }
+  
   .interest-list {
     flex-wrap: nowrap;
     flex-direction: column;
@@ -291,6 +299,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 
   .interest-list-item span {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
