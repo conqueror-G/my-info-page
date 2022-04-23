@@ -105,13 +105,29 @@ div, figure, nav, ul, li, a, section, article, span, header {
 /* mascot image */
 .mascot {
   width: 100%;
-  flex: 8 auto;
+  flex: 1 auto;
 }
 
+.mascot-image {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+
 /* greeings */
-.greeting-message {
+.greeting {
   width: 100%;
   flex: 1 auto;
+}
+
+/* sns link */
+.sns {
+  width: 100%;
+  flex: 1 auto;
+}
+
+.sns-github {
+  margin-right: 40px;
 }
 
 /* about content box */
@@ -153,15 +169,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 .profile-image-introduce p {
   margin-top: 10px;
-}
-
-/* sns link */
-.sns {
-  height: 20%;
-}
-
-.sns-github {
-  margin-right: 40px;
 }
 
 /* interest */
