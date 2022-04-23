@@ -136,6 +136,11 @@ div, figure, nav, ul, li, a, section, article, span, header {
   width: 20%;
   height: 50%;
 }
+
+.sns a:nth-child(1) {
+  margin-right: 2rem;
+}
+
 .sns-github-icon {
   width: 100%;
   height: 100%;
