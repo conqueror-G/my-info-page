@@ -69,7 +69,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   align-items: center;
   width: 40%;
   height: 90%;
-  padding: 30px;
+  padding: 3rem;
   background-color: #b7e1e4;
   box-shadow: 10px 10px 10px #808080;
 }
@@ -93,13 +93,13 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 .menu-link:hover .menu-link__txt {
-  border-bottom: 3px solid #808;
+  border-bottom: .3rem solid #808;
 }
 
 /* menu contour line */
 .contour {
   width: 100%;
-  border-top: 3px solid #808080;
+  border-top: .3rem solid #808080;
 }
 
 /* mascot image */
@@ -127,7 +127,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 .sns-github {
-  margin-right: 40px;
+  margin-right: 4rem;
 }
 
 /* about content box */
@@ -135,21 +135,21 @@ div, figure, nav, ul, li, a, section, article, span, header {
   flex-direction: column;
   width: 40%;
   height: 90%;
-  padding: 30px;
+  padding: 3rem;
   background-color: #b7e1e4;
-  box-shadow: 10px 10px 10px #808080;
+  box-shadow: 1rem 1rem 1rem #808080;
 }
 
 /* introduction text */
 .introduce-area {
   width: 100%;
   flex: 1 auto;
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 .introduce-area h1 {
   height: 10%;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .profile {
@@ -157,10 +157,10 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 .profile-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-  border: 10px solid #5dbcc2;
+  width: 20rem;
+  height: 20rem;
+  margin-right: 2rem;
+  border: 1rem solid #5dbcc2;
   border-radius: 50%;
 }
 
@@ -170,14 +170,14 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 .profile-image-introduce p {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 /* interest */
 .interest {
   width: 100%;
   flex: 1 auto;
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 .interest h1 {
