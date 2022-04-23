@@ -246,7 +246,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 
   .interest h1 {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   
   .interest-list-item span {
@@ -325,6 +325,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 
   .interest-list-item span {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
