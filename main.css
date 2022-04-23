@@ -279,7 +279,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 }
 
 /* mobile portrait mode */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .interest-list {
     flex-wrap: nowrap;
     flex-direction: column;
