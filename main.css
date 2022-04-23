@@ -135,7 +135,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
   flex-direction: column;
   width: 40%;
   height: 90%;
-  padding: 3rem;
   background-color: #b7e1e4;
   box-shadow: 1rem 1rem 1rem #808080;
 }
@@ -144,7 +143,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 .introduce-area {
   width: 100%;
   flex: 1 auto;
-  padding: 1.5rem;
+  padding: 3rem;
 }
 
 .introduce-area h1 {
@@ -177,7 +176,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
 .interest {
   width: 100%;
   flex: 1 auto;
-  padding: 1.5rem;
+  padding: 3rem;
 }
 
 .interest h1 {
