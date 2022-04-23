@@ -241,8 +241,12 @@ div, figure, nav, ul, li, a, section, article, span, header {
 /* desktop priority */
 /* tablet */
 @media screen and (max-width: 1200px) {
+  .profile-image-introduce span {
+    font-size: 1.3rem;
+  }
+  
   .interest-list-item span {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -261,7 +265,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 
   .profile-image-introduce span {
-    font-size: .3rem;
+    font-size: .9rem;
   }
 
   .interest h1 {
