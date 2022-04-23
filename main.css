@@ -132,16 +132,18 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* about content box */
 .content-box-about {
-  width: 600px;
+  flex-direction: column;
+  width: 40%;
   height: 90%;
+  padding: 30px;
   background-color: #b7e1e4;
   box-shadow: 10px 10px 10px #808080;
 }
 
 /* introduction text */
 .introduce-area {
-  width: 90%;
-  height: 40%;
+  width: 100%;
+  flex: 1 auto;
   padding: 15px;
 }
 
@@ -173,8 +175,8 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* interest */
 .interest {
-  width: 90%;
-  height: 50%;
+  width: 100%;
+  flex: 1 auto;
   padding: 15px;
 }
 
