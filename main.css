@@ -285,7 +285,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 
   .profile-image-introduce span {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   .interest h1 {
@@ -303,6 +303,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 
   .interest-list-item span {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }
