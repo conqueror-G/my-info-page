@@ -74,18 +74,14 @@ div, figure, nav, ul, li, a, section, article, span, header {
   box-shadow: 10px 10px 10px #808080;
 }
 
-.content-box-home ~ .menu, .contour, .mascot, .greeting-message {
+/* menu */
+.menu {
+  width: 100%;
   flex: 1 auto;
 }
 
-/* menu */
-.menu {
-  width: 90%;
-  height: 10%;
-}
-
 .menu-link {
-  
+
 }
 
 .menu-link:link {
@@ -102,20 +98,20 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* menu contour line */
 .contour {
-  width: 90%;
+  width: 100%;
   border-top: 3px solid #808080;
 }
 
 /* mascot image */
 .mascot {
-  width: 80%;
-  height: 60%;
+  width: 100%;
+  flex: 8 auto;
 }
 
 /* greeings */
 .greeting-message {
-  width: 70%;
-  height: 10%;
+  width: 100%;
+  flex: 1 auto;
 }
 
 /* about content box */
