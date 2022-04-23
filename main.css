@@ -241,6 +241,10 @@ div, figure, nav, ul, li, a, section, article, span, header {
 /* desktop priority */
 /* tablet */
 @media screen and (max-width: 1200px) {
+  .introduce-area {
+    height: 35%
+  }
+  
   .profile-image-introduce span {
     font-size: 1.3rem;
   }
