@@ -69,11 +69,12 @@ div, figure, nav, ul, li, a, section, article, span, header {
   align-items: center;
   width: 40%;
   height: 90%;
+  padding: 30px;
   background-color: #b7e1e4;
   box-shadow: 10px 10px 10px #808080;
 }
 
-.content-box-home ~ .menu, .mascot, .greeting-message {
+.content-box-home ~ .menu, .contour, .mascot, .greeting-message {
   flex: 1 auto;
 }
 
@@ -81,11 +82,10 @@ div, figure, nav, ul, li, a, section, article, span, header {
 .menu {
   width: 90%;
   height: 10%;
-  border-bottom: 3px solid #808080;
 }
 
 .menu-link {
-  padding: 30px;
+  
 }
 
 .menu-link:link {
@@ -98,6 +98,12 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 .menu-link:hover .menu-link__txt {
   border-bottom: 3px solid #808;
+}
+
+/* menu contour line */
+.contour {
+  width: 90%;
+  border-top: 3px solid #808080;
 }
 
 /* mascot image */
