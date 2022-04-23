@@ -261,7 +261,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 
   .profile-image-introduce span {
-    font-size: .7rem;
+    font-size: .6rem;
   }
 
   .interest h1 {
@@ -282,6 +282,10 @@ div, figure, nav, ul, li, a, section, article, span, header {
 @media screen and (max-width: 450px) {
   .introduce-area h1 {
     font-size: 1.8rem;
+  }
+
+  .profile {
+    flex-direction: column;
   }
 
   .profile-image-introduce span {
