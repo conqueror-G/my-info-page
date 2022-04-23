@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-div, figure, nav, ul, li, a, section, article, span, header {
+div, figure, figcaption, nav, ul, li, a, section, article, span, header, footer {
   box-sizing: border-box;
 }
 
@@ -31,11 +31,6 @@ div, figure, nav, ul, li, a, section, article, span, header {
   font-size: 1.6rem;
   font-family: 'Gamja Flower', cursive;
   transform: rotateX(0.03deg);
-}
-
-/* font-awesome background-color */
-.fa-github, .fa-blog {
-  color: black;
 }
 
 /* easy purpose flex-box */
