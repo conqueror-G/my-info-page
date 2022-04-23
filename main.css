@@ -231,7 +231,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 }
 
-/* mobile 가로 모드*/
+/* mobile landscape mode */
 @media screen and (max-width: 768px) {
   .menu-link span {
     font-size: 1.5rem;
@@ -263,7 +263,7 @@ div, figure, nav, ul, li, a, section, article, span, header {
   }
 }
 
-/* mobile 세로 모드 */
+/* mobile portrait mode */
 @media screen and (max-width: 350px) {
   .interest-list-item span {
     font-size: .7rem;
