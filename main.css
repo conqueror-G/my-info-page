@@ -129,12 +129,11 @@ div, figure, nav, ul, li, a, section, article, span, header {
 /* sns link */
 .sns {
   width: 100%;
-  flex: 1 auto;
-  align-items: center;
+  height: 15%;
 }
 
 .sns a {
-  width: 50%;
+  width: 20%;
   height: 50%;
 }
 .sns-github-icon {
