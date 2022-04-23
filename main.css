@@ -280,6 +280,16 @@ div, figure, nav, ul, li, a, section, article, span, header {
 
 /* mobile portrait mode */
 @media screen and (max-width: 450px) {
+  
+  .menu-link span {
+    font-size: 2rem;
+  }
+  
+  .greeting p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
   .introduce-area h1 {
     font-size: 1.8rem;
   }
