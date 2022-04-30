@@ -1,28 +1,3 @@
-/* unit */
-html {
-  font-size: 62.5%;
-}
-
-header, div, nav, ul, li {
-  box-sizing: border-box;
-}
-
-a {
-  display: block;
-  text-decoration: none;
-}
-
-body {
-  font-size: 2rem;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* ----- contour ----- */
 .global-header {
   padding: 0 5rem;
 }
