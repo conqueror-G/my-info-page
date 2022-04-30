@@ -51,8 +51,9 @@ body {
 }
 
 .navbar-menu-list {
-  margin-left: 1rem;
+  margin-left: 1.6rem;
 }
+
 
 .navbar-menu li:nth-child(1) {
   margin: 0;
@@ -61,6 +62,20 @@ body {
 .navbar-menu-list a {
   cursor: pointer;
   padding: 1rem;
+}
+
+.navbar-menu-list-link-search {
+  border-radius: 50%;
+}
+
+.navbar-menu-list-link-search:hover {
+  background-color: rgba(0, 0, 0, .5);
+  transform: scale(1.25);
+}
+
+.navbar-menu-list-link-search .search-images {
+  width: 2rem;
+  height: 2rem;
 }
 
 .navbar-menu-list-link-home {
@@ -76,4 +91,3 @@ body {
 .navbar-menu-list-link-blog:visited {
   color: #0a58ca;
 }
-
