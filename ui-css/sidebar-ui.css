@@ -3,17 +3,17 @@
 }
 
 .profile {
-  padding: 0 2rem;
+  padding: 0 5rem;
 }
 
 .profile-image {
-  width: 16rem;
-  height: 16rem;
+  width: 10rem;
+  height: 10rem;
   margin-bottom: 2rem;
 }
 
 .profile-item {
-  width: 16rem;
+  width: 10rem;
 }
 
 .profile-item span {
@@ -31,7 +31,7 @@
 
 .interest-area {
   margin-top: 2rem;
-  padding: 0 2rem;
+  padding: 0 5rem;
 }
 
 .interest-title {
@@ -40,9 +40,9 @@
 }
 
 .interest-item-sqare {
-  width: 16rem;
-  height: 16rem;
-  font-size: 3rem;
+  width: 10rem;
+  height: 10rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #eee;
 }

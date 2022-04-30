@@ -1,5 +1,7 @@
 @import url(ui-css/header-ui.css);
 @import url(ui-css/sidebar-ui.css);
+@import url(ui-css/main-ui.css);
+@import url(ui-css/footer-ui.css);
 
 /* ----- contour ----- */
 html {
@@ -29,21 +31,5 @@ body {
 
 .container {
   display: grid;
-  grid-template-areas: 
-    "header header header"
-    "aside main main"
-    "footer footer footer";
-  
-}
-
-
-
-/* main */
-.main {
-  grid-area: "main";
-}
-
-/* footer */
-.footer {
-  grid-area: 'footer';
+  height: 100vh;
 }
