@@ -1,0 +1,79 @@
+/* unit */
+html {
+  font-size: 62.5%;
+}
+
+header, div, nav, ul, li {
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+body {
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----- contour ----- */
+.global-header {
+  padding: 0 5rem;
+}
+
+.header-item {
+  display: flex;
+  /* mobile-min-width */
+  min-width: 35rem;
+  justify-content: space-between;
+  border-bottom: .3rem solid #808080;
+}
+
+.header-item .header {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.header-item .navbar {
+  padding: 2rem 0;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-menu-list {
+  margin-left: 1rem;
+}
+
+.navbar-menu li:nth-child(1) {
+  margin: 0;
+}
+
+.navbar-menu-list a {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.navbar-menu-list-link-home {
+  color: #eee;
+  background-color: #0d6efd !important;
+  border-radius: .5rem;
+}
+
+.navbar-menu-list-link-blog:link {
+  color: #0a58ca;
+}
+
+.navbar-menu-list-link-blog:visited {
+  color: #0a58ca;
+}
+
