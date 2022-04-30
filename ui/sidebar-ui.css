@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+}
+
+aside, figure, span, figcaption, section, h1, article, div {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ----- contour ----- */
+.sidebar {
+  display: inline-block;
+}
+
+.profile {
+  padding: 0 2rem;
+}
+
+.profile-image {
+  width: 16rem;
+  height: 16rem;
+  margin-bottom: 2rem;
+}
+
+.profile-item {
+  width: 16rem;
+}
+
+.profile-item span {
+  display: block;
+}
+
+.profile-item-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profile-item-comment {
+  font-size: 1.6rem;
+}
+
+.interest-area {
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+
+.interest-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.interest-item-sqare {
+  width: 16rem;
+  height: 16rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #eee;
+}
+
+.interest-item div:nth-child(1) {
+  background-color: #ff7f50d9;
+}
+
+.interest-item div:nth-child(2) {
+  background-color: #ff50f6cf;
+}
+
+.interest-item div:nth-child(3) {
+  background-color: #4765d1c6;
+}
+
+.interest-item div:nth-child(4) {
+  background-color: #219530c6;
+}
