@@ -14,8 +14,4 @@ mobile portrait mode와 landscape mode의 구분 없이 이미지와 텍스트�
 어떤 코드를 작성할 때 레이아웃이 어떻게 변하는지, 내가 무슨 짓을 하고 있는지, 왜 이렇게 변한건지 파악이 안됩니다.
 
 ## ui html, css 분리 문제점
-특정 property가 적용이 되지 않거나 전역적으로 적용됩니다.
-
-## 현재 문제점
-1. footer ui-css에서 html 셀렉터에 font-size를 적용하면 index.html에 적용이 되어 버립니다.
-2. script로 html을 import하는 기능이 github에선 보이지가 않아 개념을 파악할 때까지 중단합니다.
+github에서 css를 불러오지 않아 파악 중입니다. 파악해서 해결하기 전까지는 merge 해놓겠습니다.
