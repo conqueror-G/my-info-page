@@ -14,31 +14,76 @@
   
 </head>
 <body>
-
+  
   <div class="container">
-    <header id="header">
-      <div data-include-path="header.html"></div>
+
+    <!-- header-ui -->
+    <header id="header" class="global-header">
+      <div class="header-item">
+        <div class="header-title">INFO</div>
+        <nav class="navbar">
+          <ul class="navbar-menu">
+            <li class="navbar-menu-list">
+              <a class="navbar-menu-list-link-search flex" href="#">
+                <img class="search-images" src="../images/magnifying-glass.png" alt="돋보기">
+              </a>
+            </li>
+            <li class="navbar-menu-list">
+              <a class="navbar-menu-list-link-home" href="#">Home</a>
+            </li>
+            <li class="navbar-menu-list">
+              <a class="navbar-menu-list-link-blog" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <aside id="aside">
-      <div data-include-path="sidebar.html"></div>
+
+    <!-- sidebar-ui -->
+    <aside id="aside" class="sidebar">
+      <figure class="profile flex">
+        <img class="profile-image" src="../images/penguin.png" alt="프로필사진">
+        <figcaption class="profile-item">
+          <span class="profile-item-name">🐰 김민석</span>
+          <span class="profile-item-comment">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, quibusdam?</span>
+        </figcaption>
+      </figure>
+      <div class="interest-area flex">
+        <div class="interest-item">
+          <span class="interest-title">💞 관심사</span>  
+          <div class="interest-item-sqare flex">JavaScript</div>
+          <div class="interest-item-sqare flex">React</div>
+          <div class="interest-item-sqare flex">SASS</div>
+          <div class="interest-item-sqare flex">Node.js</div>
+        </div>
+      </div>
     </aside>
-    <main id="main">
-      <div data-include-path="main.html"></div>
-    </main>
-    <footer id="footer">
-      <div data-include-path="footer.html"></div>
+
+    <!-- main-content -->
+    <main id="main" class="main"></main>
+
+    <!-- footer -->
+    <footer id="footer" class="footer">
+      <div class="author">
+        <span class="author-name">made in Conqueror-G</span>
+      </div>
     </footer>
+
   </div>
   
   
+  
+  
+  
+  
+  
+  <!-- <div data-include-path="header.html"></div> -->
+  <!-- <div data-include-path="sidebar.html"></div> -->
+  <!-- <div data-include-path="main.html"></div> -->
+  <!-- <div data-include-path="ui-html/footer.html"></div> -->
 
-
-
-
-
-
-
-  <script>
+  <!-- 원인 파악 중입니다. -->
+  <!-- <script>
     window.addEventListener('load', function () {
       var allElements = document.getElementsByTagName('*');
       Array.prototype.forEach.call(allElements, function (el) {
@@ -55,6 +100,6 @@
         }
       });
     });
-  </script>
+  </script> -->
 </body>
 </html>

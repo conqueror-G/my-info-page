@@ -17,4 +17,5 @@ mobile portrait mode와 landscape mode의 구분 없이 이미지와 텍스트�
 특정 property가 적용이 되지 않거나 전역적으로 적용됩니다.
 
 ## 현재 문제점
-footer ui-css에서 html 셀렉터에 font-size를 적용하면 index.html에 적용이 되어 버립니다.
+1. footer ui-css에서 html 셀렉터에 font-size를 적용하면 index.html에 적용이 되어 버립니다.
+2. script로 html을 import하는 기능이 github에선 보이지가 않아 개념을 파악할 때까지 중단합니다.
