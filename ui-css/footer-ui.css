@@ -1,3 +1,19 @@
+span {
+  display: block;
+}
+
+/* ----- contour ----- */
 .footer {
-  grid-area: "footer";
+  padding: 0 5rem;
+}
+
+.author {
+  border-top: .3rem solid #808080;
+}
+
+.author-name {
+  display: flex;
+  justify-content: center;
+  padding: .5rem 0;
+  font-size: 2rem;
 }

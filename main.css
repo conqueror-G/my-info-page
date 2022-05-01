@@ -1,8 +1,3 @@
-@import url(ui-css/header-ui.css);
-@import url(ui-css/sidebar-ui.css);
-@import url(ui-css/main-ui.css);
-@import url(ui-css/footer-ui.css);
-
 /* ----- contour ----- */
 html {
   font-size: 62.5%;
@@ -28,8 +23,28 @@ body {
 }
 
 /* ----- contour ----- */
-
 .container {
   display: grid;
-  height: 100vh;
+  grid:
+  "header header header header header header header"
+  "aside main main main main main mian"
+  "footer footer footer footer footer footer footer";
+}
+
+#header {
+  grid-area: header;
+}
+
+#aside {
+  margin-top: 1rem;
+  grid-area: aside;
+}
+
+#main {
+  grid-area: main;
+}
+
+#footer {
+  margin-top: 1rem;
+  grid-area: footer;
 }
