@@ -183,6 +183,32 @@ a {
 
 #main {
   grid-area: main;
+  padding: 4rem;
+}
+
+.card-list-con {
+  overflow-x: hidden;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.card-image {
+  height: 0;
+  padding-bottom: 60%;
+}
+
+.card-image img {
+  display: none;
+}
+
+.card-desc {
+  flex: auto;
+  padding: 1em;
+  background-color: #eee;
 }
 
 /* footer */
@@ -202,4 +228,29 @@ a {
   justify-content: center;
   padding: .5rem 0;
   font-size: 2rem;
+}
+
+/* media */
+
+@media (min-width: 600px) {
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+  }
+  
+  .card-item {
+    width: 50%;
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-list {
+    margin: 0 -1rem;
+  }
+  
+  .card-item {
+    width: 33%;
+  }
 }
