@@ -21,6 +21,7 @@ a {
 
 .container {
   display: grid;
+  padding: 0 5rem;
   grid:
   "header header"
   "aside main"
@@ -31,7 +32,7 @@ a {
 /* ----- contour ----- */
 #header {
   grid-area: header;
-  padding: 0 5rem;
+  /* padding: 0 5rem; */
   font-size: 3rem;
 }
 
@@ -111,7 +112,7 @@ a {
 
 .profile {
   flex-direction: column;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
 }
 
 .profile-images {
@@ -141,7 +142,7 @@ a {
 .interest-area {
   flex-direction: column;
   margin-top: 2rem;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
 }
 
 .interest-item {
@@ -182,8 +183,8 @@ a {
 /* ----- contour ----- */
 
 #main {
+  padding: 1.6rem;
   grid-area: main;
-  padding: 4rem;
 }
 
 .card-list-con {
@@ -209,6 +210,7 @@ a {
   flex: auto;
   padding: 1em;
   background-color: #eee;
+  font-size: 2rem;
 }
 
 /* footer */
